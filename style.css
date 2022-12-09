@@ -1,0 +1,24 @@
+html, main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(66, 104, 124);
+}
+
+button {
+    background-color: rgb(66, 104, 124);
+    border-color: rgb(179, 218, 241);
+    color: rgb(179, 218, 241);
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 8px 16px;
+    box-shadow: 0 5px 0 rgb(132, 165, 184);
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(132, 165, 184);
+    color: rgb(179, 218, 241);
+    box-shadow: 0 0 10px 0 rgb(132, 165, 184);
+    transform: translateY(5px);
+}
